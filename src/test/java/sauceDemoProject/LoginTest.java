@@ -10,7 +10,7 @@ public class LoginTest {
     WebDriver driver;
 
    @Test
-    public void validLogin() {
+   public void validLogin() {
        LoginPage loginPage = new LoginPage(driver);
 
        loginPage.navigateToLoginPage();
